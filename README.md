@@ -12,4 +12,11 @@ If you are familar with running bash scripts, just grab a script you want and ad
 
 ## The Scripts
 * [imageResize](https://github.com/dvrs-brad/image-cli-tools/blob/master/imageResize) - Resizes and an image based on a give width.  The aspect ration of the image will be preserved and the height will be automatically resized proportional to the new width.
-* [imageWebp](https://github.com/dvrs-brad/image-cli-tools/blob/master/imageWebp) - Converts and image to Webp format at 90% quality of the original.  
+* [imageWebp](https://github.com/dvrs-brad/image-cli-tools/blob/master/imageWebp) - Converts and image to Webp format at 90% quality of the original.
+
+## Useful Aliases
+The following aliases shorten some of the most useful commands from ImageMagick.  You can add these to ~/.bashrc or if using zsh ~/.zshrc
+* Find the size of any image in a directory 
+** alias imageSize="identify -format \"%wx%h\" " 
+*** How to use: imageSize filename.jpg
+
