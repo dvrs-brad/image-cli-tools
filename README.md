@@ -12,4 +12,4 @@ If you are familar with running bash scripts, just grab a script you want and ad
 
 ## The Scripts
 * [imageResize](https://github.com/dvrs-brad/image-cli-tools/blob/master/imageResize) - Resizes and an image based on a give width.  The aspect ration of the image will be preserved and the height will be automatically resized proportional to the new width.
-* imageWebp - Converts and image to Webp format at 90% quality of the original.  
+* [imageWebp](https://github.com/dvrs-brad/image-cli-tools/blob/master/imageWebp) - Converts and image to Webp format at 90% quality of the original.  
