@@ -1,0 +1,21 @@
+#! /usr/bin/env bash
+
+# This script converts PNG JPG or jpeg images to WebP.
+# Pass the filename the image when calling the script: imageWebp image-name.jpg
+# Your image will be converted to Webp at 90% quality of the original.
+# Need other formats?  Follow the logic below and add a new case.
+
+case $1 in
+  *.jpg)
+    cwebp -q 90 "$1" -o "$(basename "$1" .jpg).webp"
+    ;;
+  *.png)
+    cwebp -q 90 "$1" -o "$(basename "$1" .png).webp"
+    ;;
+  *.jpeg)
+    cwebp -q 90 "$1" -o "$(basename "$1" .jpeg).webp"
+    ;;
+  *)
+    echo "$1 is either mispelled or the extension is not .jpg, .png, or .jpeg"
+    ;;
+esac
