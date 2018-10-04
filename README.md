@@ -16,7 +16,7 @@ If you are familar with running bash scripts, just grab a script you want and ad
 
 ## Useful Aliases
 The following aliases shorten some of the most useful commands from ImageMagick.  You can add these to ~/.bashrc or if using zsh ~/.zshrc
-* Find the size of any image in a directory 
-** alias imageSize="identify -format \"%wx%h\" " 
-*** How to use: imageSize filename.jpg
+1 Find the size of any image in a directory 
+* Line to add: alias imageSize="identify -format \"%wx%h\" " 
+* Example use: imageSize filename.jpg
 
