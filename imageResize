@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 
 # This script resizes an image file preserving it's aspect ratio.
-# Pass the filename the image when calling the script: imageResize image-name.jpg
+# Pass the filename to the image when calling the script: imageResize image-name.jpg
 # When prompted enter the desired width and the image will be resized.
 
 echo "What is the width you woud like to resize the image to?"
