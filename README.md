@@ -26,25 +26,25 @@ alias imageSize="identify -format \"%wx%h\" "
 ## ImageMagick from the CLI
 ### Resize all images in a folder
 if you know the exact size
-'''
+```
 mogrify -resize 600x400 *.jpg
-'''
+```
 
-'''
+```
 If you know the width and want the height to scale accordingly preserving the aspect ratio
-'''
+```
 
-'''
+```
 mogrify -resize 1920 *.jpg
-'''
+```
 
-'''
+```
 Scale your images to a set size but preserve the aspect ratio.  Your images will scale as close as posible but maintain its aspect ratio.
-'''
+```
 
-'''
+```
 mogrify -resize 600x400! *.jpg
-'''
+```
 
 
 
